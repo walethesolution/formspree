@@ -1,0 +1,27 @@
+input {
+  width: 50%;
+  border-style: solid;
+}
+
+textarea {
+  width: 50%;
+  height: 150px;
+  text-align: left;
+  border-style: solid;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  border-radius: 2%;
+  margin: 5px;
+}
+
+.item {
+  margin: auto;
+  justify-content: flex-start;
+}
+
+button {
+  margin: 5px;
+}
